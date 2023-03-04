@@ -61,3 +61,4 @@ def sort[A](list: List[A])(ord: Ordering[A]): List[A] = {
 
 sort(List(1,4, 3))(Ordering.Int)
 sort(List( "orange", "banana","apple"))(Ordering.String)
+sort(List(9.1, 9.6, 9.3))(Ordering.DeprecatedDoubleOrdering)
