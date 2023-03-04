@@ -2,3 +2,15 @@
 *.log
 */*.DS_Store
 */*.bsp/
+
+*.DS_Store
+*.bsp/
+*project/
+*target/
+.bloop/*
+.metals/*
+.vscode/*
+.metals/
+.metals/
+.vscode/
+
